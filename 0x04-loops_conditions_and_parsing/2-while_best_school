@@ -2,7 +2,7 @@
 # displays Best School 10 times.
 
 num=0
-while [ $num < 10 ]
+while [ $num -lt 10 ]
 do 
 	echo "Best School"
 	let num = num+1
